@@ -40,7 +40,7 @@ function myFunction(input) {
     }
 
 
-    function Order (flowerType, flowerAmount, budgetSize) {         // Defining an absolutely unnecessary object constructor just to show off
+    function Order (flowerType, flowerAmount, budgetSize) {         // Defining an ABSOLUTELY unnecessary object constructor just to show off
 
         this.type = flowerType;
         this.amount = flowerAmount;
