@@ -18,14 +18,7 @@ function myFunction(input) {
     
     
     
-    let displayMinPadded;
-
-    if (displayMin < 10) {
-        displayMinPadded = "0" + displayMin;
-
-    } else {
-        displayMinPadded = displayMin;
-    }
+    let displayMinPadded = (displayMin < 10) ? ("0" + displayMin) : (displayMin);
 
 
 
