@@ -15,9 +15,10 @@ function myFunction(input) {
 
     let displayHour = Math.abs(Math.trunc(difference / 60));
     let displayMin = Math.abs(difference % 60);
+    
+    
+    
     let displayMinPadded;
-
-
 
     if (displayMin < 10) {
         displayMinPadded = "0" + displayMin;
