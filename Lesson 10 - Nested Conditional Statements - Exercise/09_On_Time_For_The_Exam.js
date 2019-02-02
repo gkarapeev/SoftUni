@@ -54,48 +54,7 @@ function myFunction(input) {
     } 
 
 
-
 }
 
 
 myFunction(["14", "00", "13", "55"]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let examHourRaw = input[0];
-// let examHourPadding = (examHourRaw.length === 1) ? "0" : "";
-// let examHour = examHourPadding + examHourRaw;
-// let examMin = input[1];
-
-
-// let arrivalHourRaw = input[2];
-// let arrivalHourPadding = (arrivalHourRaw.length === 1) ? "0" : "";
-// let arrivalHour = arrivalHourPadding + arrivalHourRaw;
-// let arrivalMin = input[3];
-
-// let arrivalTime = arrivalHour + arrivalMin;
-// let examTime = examHour + examMin;
